@@ -88,7 +88,12 @@ public class Ciento_cuatro
     
     public void busqueda(int x, int cant_estu)	{
         int i;
-        System.out.println("Palabra a buscar: "+this.palabra);
+        System.out.println("nombre "+getNombre());
+        System.out.println("nombre "+getEdad());
+        System.out.println("nombre "+getPeso());
+        System.out.println("nombre "+getSexo());
+
+        /*System.out.println("Palabra a buscar: "+this.palabra);
         
         switch(x)
         {
@@ -198,7 +203,7 @@ public class Ciento_cuatro
 
             }
 
-        }	
+        }*/	
 
 }
     
