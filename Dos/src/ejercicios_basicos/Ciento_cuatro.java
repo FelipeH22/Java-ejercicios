@@ -1,4 +1,5 @@
 package ejercicios_basicos;
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Ciento_cuatro 
@@ -84,19 +85,19 @@ public class Ciento_cuatro
     public void imprimir_listado(int x){
         for(int i=1;i<=x;i++){
             System.out.println("Perfil #"+i+": ");
-            System.out.println("Nombre "+getNombre());
-            System.out.println("Edad "+getEdad());
-            System.out.println("Sexo "+getSexo());
-            System.out.println("Peso "+getPeso());
-            System.out.println("Telefono "+getTelefono());
-            System.out.println("Nacionalidad "+getNacionalidad());
-            System.out.println("Color de pelo "+getColordepelo());
-            System.out.println("Color de piel "+getColordepiel());
-            System.out.println("Color de ojos "+getColordeojos());  
+            System.out.println("Nombre "+ Arrays.toString(getNombre()));
+            System.out.println("Edad "+Arrays.toString(getEdad()));
+            System.out.println("Sexo "+Arrays.toString(getSexo()));
+            System.out.println("Peso "+Arrays.toString(getPeso()));
+            System.out.println("Telefono "+Arrays.toString(getTelefono()));
+            System.out.println("Nacionalidad "+Arrays.toString(getNacionalidad()));
+            System.out.println("Color de pelo "+Arrays.toString(getColordepelo()));
+            System.out.println("Color de piel "+Arrays.toString(getColordepiel()));
+            System.out.println("Color de ojos "+Arrays.toString(getColordeojos()));  
         }
      }  
     
-    
+    /*
     public void busqueda(int x, int cant_estu)	{
         int i;
         System.out.println("Palabra a buscar: "+this.palabra);
@@ -203,5 +204,5 @@ public class Ciento_cuatro
              }
          }	
  
-    }
+    }*/
 }
