@@ -13,6 +13,7 @@ public class Ciento_cuatro
     String[] colordepiel = new String[30];
     String[] colordeojos = new String[30];
     String palabra ;
+    
      public void setPalabra(String palabra) {
         this.palabra = palabra;
     }   
@@ -60,14 +61,39 @@ public class Ciento_cuatro
     }
      public String[] getPeso() {
         return peso;
-    }
-     
+    }     
      
     public String[] getNacionalidad() {
         return nacionalidad;
     }
+
+    public String[] getColordepelo() {
+        return colordepelo;
+    }
+
+    public String[] getColordepiel() {
+        return colordepiel;
+    }
+
+    public String[] getColordeojos() {
+        return colordeojos;
+    }
+
+     
     
-    public void almacenar(){
+    public void imprimir_listado(int x){
+        for(int i=1;i<=x;i++){
+            System.out.println("Perfil #"+i+": ");
+            System.out.println("Nombre "+getNombre());
+            System.out.println("Edad "+getEdad());
+            System.out.println("Sexo "+getSexo());
+            System.out.println("Peso "+getPeso());
+            System.out.println("Telefono "+getTelefono());
+            System.out.println("Nacionalidad "+getNacionalidad());
+            System.out.println("Color de pelo "+getColordepelo());
+            System.out.println("Color de piel "+getColordepiel());
+            System.out.println("Color de ojos "+getColordeojos());  
+        }
      }  
     
     

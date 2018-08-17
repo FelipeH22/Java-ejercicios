@@ -51,7 +51,7 @@ public class Ciento_cuatro_main
             cc.setColordepelo(color_pelo,x);/*estudiante.colordepelo[x];*/
 	}
         
-	System.out.println("Digite el criterio por el que desea buscar");
+	 /*System.out.println("Digite el criterio por el que desea buscar");
         System.out.println("Criterio 1: nombre");
         System.out.println("Criterio 2: sexo");
         System.out.println("Criterio 3: edad");
@@ -63,11 +63,12 @@ public class Ciento_cuatro_main
         System.out.println("Criterio 9: telefono"); 
         int opcion = sc.nextInt();
         
-        System.out.println("Ingrese palabra a buscar: "); 
-        /*String palabra = sc.nextLine();*/
-        cc.setPalabra(sc.nextLine());
+       System.out.println("Ingrese palabra a buscar: "); 
+        String palabra = sc.nextLine();
+        cc.setPalabra(sc.nextLine());        
+	cc.busqueda(opcion, cant_estu);*/
         
-	cc.busqueda(opcion, cant_estu);
+        cc.imprimir_listado(cant_estu);
         
     }  
 }        
